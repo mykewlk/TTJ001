@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4220D05A25DF076300E81042 /* Jail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220D05925DF076300E81042 /* Jail+CoreDataProperties.swift */; };
 		4256142725DDC7E1001E6750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4256142625DDC7E1001E6750 /* AppDelegate.swift */; };
 		4256142925DDC7E1001E6750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4256142825DDC7E1001E6750 /* SceneDelegate.swift */; };
 		4256142B25DDC7E1001E6750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4256142A25DDC7E1001E6750 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		4256143625DDC7E3001E6750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4256143425DDC7E3001E6750 /* LaunchScreen.storyboard */; };
 		4256144125DDC7E3001E6750 /* TTJ001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4256144025DDC7E3001E6750 /* TTJ001Tests.swift */; };
 		4256144C25DDC7E3001E6750 /* TTJ001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4256144B25DDC7E3001E6750 /* TTJ001UITests.swift */; };
+		4256147925DDCF1B001E6750 /* Jail+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4256147725DDCF1B001E6750 /* Jail+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4220D05925DF076300E81042 /* Jail+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jail+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4256142325DDC7E1001E6750 /* TTJ001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTJ001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4256142625DDC7E1001E6750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4256142825DDC7E1001E6750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		4256144725DDC7E3001E6750 /* TTJ001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTJ001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4256144B25DDC7E3001E6750 /* TTJ001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTJ001UITests.swift; sourceTree = "<group>"; };
 		4256144D25DDC7E3001E6750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4256147725DDCF1B001E6750 /* Jail+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Jail+CoreDataClass.swift"; path = "../../Jail+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		4256142525DDC7E1001E6750 /* TTJ001 */ = {
 			isa = PBXGroup;
 			children = (
+				4256146325DDCC74001E6750 /* Model */,
 				4256142625DDC7E1001E6750 /* AppDelegate.swift */,
 				4256142825DDC7E1001E6750 /* SceneDelegate.swift */,
 				4256142A25DDC7E1001E6750 /* ViewController.swift */,
@@ -129,6 +134,15 @@
 				4256144D25DDC7E3001E6750 /* Info.plist */,
 			);
 			path = TTJ001UITests;
+			sourceTree = "<group>";
+		};
+		4256146325DDCC74001E6750 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4220D05925DF076300E81042 /* Jail+CoreDataProperties.swift */,
+				4256147725DDCF1B001E6750 /* Jail+CoreDataClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4256147925DDCF1B001E6750 /* Jail+CoreDataClass.swift in Sources */,
+				4220D05A25DF076300E81042 /* Jail+CoreDataProperties.swift in Sources */,
 				4256142B25DDC7E1001E6750 /* ViewController.swift in Sources */,
 				4256142725DDC7E1001E6750 /* AppDelegate.swift in Sources */,
 				4256143125DDC7E1001E6750 /* TTJ001.xcdatamodeld in Sources */,
